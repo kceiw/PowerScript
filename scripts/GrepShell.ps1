@@ -4,7 +4,7 @@
     [String[]] $Path = ".",
     [string[]] $Exclude,
     [string[]] $Include,
-    [switch]$Recurse
+    [switch]$Recurse=$True
 )
 
 $allChildItems = ""
